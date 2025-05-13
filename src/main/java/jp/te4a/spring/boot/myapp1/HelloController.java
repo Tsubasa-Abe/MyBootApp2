@@ -15,7 +15,7 @@ public class HelloController
     return "Hello,Spring Boot!";
   }
 
-  @RequestMapping("/te/taro")
+  @RequestMapping("/taro")
   public String taro(){
     return "Taro desu!";
   }
