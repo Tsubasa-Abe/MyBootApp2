@@ -16,7 +16,7 @@ public class HelloController
   }
 
   @RequestMapping("/te/taro")
-  public String index(){
+  public String taro(){
     return "Taro desu!";
   }
 }
